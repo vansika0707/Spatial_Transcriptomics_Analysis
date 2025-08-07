@@ -46,7 +46,7 @@ This project demonstrated the application of spatial transcriptomics to study ge
 
 
 ## Acknowledgements
-Satija Lab
-10x Genomics dataset
-Seurat R package
+-Satija Lab
+-10x Genomics dataset
+-Seurat R package
 
