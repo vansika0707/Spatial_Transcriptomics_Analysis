@@ -24,19 +24,19 @@ BiocManager::install("glmGamPoi")
 
 
 ## Summary of Analysis
-1. Quality Control Plots
+### 1. Quality Control Plots:
 Violin plot and spatial map of UMI (Unique Molecular Identifier) counts per spot, show spatial heterogeneity indicating different cell densities.
 
-2. Normalization Comparision 
+### 2. Normalization Comparision:
 Log normalization vs SCTransform. The normalization comparison plot shows how normalization reduces variability due to sequencing depth or UMI counts, making gene expression across spatial spots more comparable and reliable for downstream analysis.
 
-3. Spatially Variable gene expression
+### 3. Spatially Variable gene expression:
 The plot displays spatially variable gene expression of Hpca(Hippocalcin) and Ttr(Transthyretin) in the anterior cortex of the brain.
 
-4. Clustering and Dimesionality Reduction 
+### 4. Clustering and Dimesionality Reduction: 
 PCA + UMAP is used to identify transcriptionally distinct clusters.Spatially mapped clusters reveal correspondence to anatomical brain structures.
 
-5. Cortex subset
+### 5. Cortex subset:
 Visualization of subset of clusters enriched in cortex region.
 
 
